@@ -1,0 +1,230 @@
+
+/* affects everything in body */
+body
+{
+  /*get that instagram white bg */
+   background-color: #fafafa;get that instagram greyish bg */
+}
+
+br {
+   line-height: 150%;
+}
+
+
+/* box storing user names boxes etc. */
+.mainbox
+{
+      background-color: #fff;//white bg for box
+
+    }
+
+
+/* border for the main box resized */
+.borderMainbox
+{
+  display:inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e6e6e6;;
+  width: 245px;
+  height: 540px;
+
+}
+
+
+/* center our phone base images */
+ /* using fixed position so that its based on our view port so scrolling does not affect pos */
+
+div.center {
+  position: fixed;
+  top: 40px;
+  left: 200px;
+
+}
+
+/* center our white form box, using fixed position so that its based on our view port so scrolling does not affect pos */
+.center2 {
+  position: fixed;
+  top: 50px;
+  left: 632px;
+
+}
+
+
+/* resize our image for phonebase */
+img.resize
+{
+  width:440px; /* you can use % */
+  height: auto;
+}
+
+/* resize our image for instagram logo */
+img.resize2
+{
+  width:160px; /* you can use % */
+  height: auto;
+  position: fixed;
+top: 60px;
+  left: 679px;
+}
+
+
+/* function to make divs inline so they are displayed side by side */
+.inline{
+  display:inline-block;
+
+}
+
+.facebook
+{
+  -webkit-appearance: none;
+border-radius: 3px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+outline: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 200px;
+position: fixed;
+top: 170px;
+left: 661px;
+color: white;
+background-color: #008CBA;
+height: auto;
+
+}
+
+.signup
+{
+  /* change font */
+  font-family:"Segoe UI Semibold";
+  text-align: center;
+color: #999;
+  width:250px;
+  font-weight: 600;
+line-height: 20px;
+font-size: 17px;
+margin: 0 40px 10px;
+position: fixed;
+top: 120px;
+left: 600px;
+}
+
+.or
+{
+  /* change font */
+  font-family:"Segoe UI Semibold";
+  text-align: center;
+color: #999;
+  width:250px;
+  font-weight: 600;
+line-height: 20px;
+font-size: 13px;
+margin: 0 40px 10px;
+position: fixed;
+top: 210px;
+left: 588px;
+
+}
+
+.form
+{
+  position: relative;
+      top: 165px;
+      right: -27px;
+      font-family:"Segoe UI Semibold";
+      color: #999;
+
+
+
+}
+.formsize
+{
+  width: 196px;
+}
+
+.Next
+{
+  -webkit-appearance: none;
+border-radius: 3px;
+border-style: solid;
+border-width: 1px;
+font-size: 14px;
+font-weight: 600;
+line-height: 26px;
+outline: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 200px;
+position: fixed;
+top:369px;
+left: 661px;
+color: white;
+background-color: #008CBA;
+height: auto;
+
+}
+.terms{
+  /* change font */
+  font-family:"Segoe UI Semibold";
+  text-align: center;
+color: #999;
+  width:170px;
+  font-weight: 600;
+line-height: 20px;
+font-size: 12px;
+margin: 0 40px 10px;
+position: fixed;
+top: 423px;
+left: 633px;
+}
+.terms2{
+  /* change font */
+  font-family:"Segoe UI Semibold";
+  text-align: center;
+color: #999;
+  width:170px;
+  font-weight: 600;
+line-height: 20px;
+font-size: 12px;
+margin: 0 40px 10px;
+
+}
+.borderMainbox2
+{
+  display:inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e6e6e6;;
+  width: 245px;
+  height: 50px;
+  position:fixed;
+  top:600px;
+    left: 632px;
+
+
+}
+img.posapp{
+  position: relative;
+  top: 666px;
+right: -600px;
+}
+img.posand{
+  position: relative;
+  top: 589px;
+    right: -766px;
+}
+/* banner for instagram  */
+.instaTop{
+  position:fixed;
+  width:100%;
+
+  top: -10px;
+  left: -5px;
+
+}
